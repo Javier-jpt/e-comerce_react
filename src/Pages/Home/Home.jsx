@@ -1,20 +1,14 @@
-import React, { useContext } from 'react'
+import React from 'react'
 import Data from '../../database/data.json'
 import Card from '../../Components/Card/Card';
-import { UserContext } from '../../Context/Users/UserContext';
+
 
 function Home () {
-
-const { users } = Data
-
-const { userData } = useContext(UserContext)
 
 const { products } = Data;
 
    return (
-    <div className="">
-
-        <h1 className='Wellcome'>Wellcome to AnimeLandia: {userData.email} </h1>
+    <div className="containerHome">
 
         {products.map(({id,title,images,price}) => {
             return (

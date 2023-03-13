@@ -1,4 +1,5 @@
 import { useContext } from "react";
+import { toast } from "react-toastify";
 import { CartContext } from "../../Context/CartContext";
 
  function Card({id, title, images, price, iscard}) {
@@ -9,7 +10,9 @@ import { CartContext } from "../../Context/CartContext";
       if (checkCart()) {
         const newCart = cart.filter((product) => product.id !== id)
         removeCart(newCart)
+        toast("🗑️ Product Deleted from Cart")
       } else {
+        toast("👌 Product Added to Cart")
         updateCart({id, title, images, price})
       }
     };
