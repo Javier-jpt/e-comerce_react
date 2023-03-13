@@ -13,8 +13,6 @@ function Login () {
     ok: false,
   });
 
-  console.log({ formEmail }, { formPass });
-
   const handleLogin = (e) => {
     e.preventDefault();
 
