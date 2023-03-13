@@ -1,19 +1,6 @@
 .App {
+  width: 100%;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -24,15 +11,99 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.Cards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(0, 136, 255, 0.618);
+  padding-top: 50px;
+  color:black;
+  height: 80vh;
+  width: 400px;
+  }
+
+.Header {
+  display: flex;
+  justify-content: center;
+  background-color: grey;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+  
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.Logo {
+  margin: 0;
+  padding: 0;
+}
+
+.img {
+  border-radius: 10px;
+  width: 200px;
+  transition: transform .2s; /* Animation */
+  margin: 0 auto;
+}
+
+.img:hover {
+  transform: scale(1.3);
+}
+
+
+.Nav {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(0, 136, 255);
+  padding-bottom: 20px;
+  font-size: 30px;
+  gap: 20px;
+}
+
+.Form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Label {
+  margin: 5px;
+  font-size: 30px;
+}
+
+.Input {
+  margin: 5px;
+  width: 250px;
+}
+
+.Button {
+  margin-top: 20px;
+}
+
+.Login {
+  background-color: rgb(0, 136, 255);
+  height: 100vh;
+}
+
+.Wellcome {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(0, 136, 255);
+  padding: 0px;
+  margin: 0px;
 }

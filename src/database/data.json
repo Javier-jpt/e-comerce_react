@@ -1,0 +1,58 @@
+{
+	"products": [
+		{
+			"id": 1,
+			"title": "Goku Figure",
+			"price": 29.95,
+			"images": "Goku.jpg"
+		},
+		{
+			"id": 2,
+			"title": "Picolo Figure",
+			"price": 29.95,
+			"images": "Picolo.jpg"
+		},
+		{
+			"id": 3,
+			"title": "Son Gohan Figure",
+			"price": 29.95,
+			"images": "SonGohan.jpg"
+		},
+		{
+			"id": 4,
+			"title": "Vegeta Figure",
+			"price": 29.95,
+			"images": "vegeta.jpg"
+		},
+		{
+			"id": 5,
+			"title": "Kimetsu no Yaiba Giyu Tomioka",
+			"price": 34.95,
+			"images": "Kimetsu1.jpg"
+		},
+		{
+			"id": 6,
+			"title": "Kimetsu no Yaiba Nezuko Kamado",
+			"price": 34.95,
+			"images": "Kimetsu2.jpg"
+		},
+		{
+			"id": 7,
+			"title": "Kimetsu no Yaiba Tanjiro Kamado",
+			"price": 34.95,
+			"images": "Kimetsu3.jpg"
+		},
+		{
+			"id": 8,
+			"title": "Kimetsu no Yaiba Kyojuro Rengoku",
+			"price": 34.95,
+			"images": "Kimetsu4.jpg"
+		},
+		{
+			"id": 9,
+			"title": "Kimetsu no Yaiba Zenitsu Agatsuma",
+			"price": 34.95,
+			"images": "Kimetsu5.jpg"
+		}
+	]
+}
